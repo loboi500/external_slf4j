@@ -1,6 +1,5 @@
 # Auto detect text files and perform LF normalization
 * text=auto
-
 # Custom for Visual Studio
 *.cs     diff=csharp
 *.sln    merge=union
@@ -8,7 +7,6 @@
 *.vbproj merge=union
 *.fsproj merge=union
 *.dbproj merge=union
-
 # Standard to msysgit
 *.doc	 diff=astextplain
 *.DOC	 diff=astextplain
@@ -20,3 +18,32 @@
 *.PDF	 diff=astextplain
 *.rtf	 diff=astextplain
 *.RTF	 diff=astextplain
+binderVersion.pl filter=lfs diff=lfs merge=lfs -text
+goVersion.sh filter=lfs diff=lfs merge=lfs -text
+LICENSE.txt filter=lfs diff=lfs merge=lfs -text
+slf4j-nop filter=lfs diff=lfs merge=lfs -text
+slf4j-site filter=lfs diff=lfs merge=lfs -text
+slf4j-migrator filter=lfs diff=lfs merge=lfs -text
+version.pl filter=lfs diff=lfs merge=lfs -text
+src filter=lfs diff=lfs merge=lfs -text
+Android.bp filter=lfs diff=lfs merge=lfs -text
+codeStyle.xml filter=lfs diff=lfs merge=lfs -text
+jcl-over-slf4j filter=lfs diff=lfs merge=lfs -text
+NOTICE filter=lfs diff=lfs merge=lfs -text
+slf4j-android filter=lfs diff=lfs merge=lfs -text
+slf4j-log4j12 filter=lfs diff=lfs merge=lfs -text
+pom.xml filter=lfs diff=lfs merge=lfs -text
+slf4j-api filter=lfs diff=lfs merge=lfs -text
+slf4j-jdk14 filter=lfs diff=lfs merge=lfs -text
+test filter=lfs diff=lfs merge=lfs -text
+jul-to-slf4j filter=lfs diff=lfs merge=lfs -text
+README.md filter=lfs diff=lfs merge=lfs -text
+log4j-over-slf4j filter=lfs diff=lfs merge=lfs -text
+METADATA filter=lfs diff=lfs merge=lfs -text
+osgi-over-slf4j filter=lfs diff=lfs merge=lfs -text
+integration filter=lfs diff=lfs merge=lfs -text
+slf4j-ext filter=lfs diff=lfs merge=lfs -text
+MODULE_LICENSE_MIT filter=lfs diff=lfs merge=lfs -text
+OWNERS filter=lfs diff=lfs merge=lfs -text
+slf4j-jcl filter=lfs diff=lfs merge=lfs -text
+slf4j-simple filter=lfs diff=lfs merge=lfs -text

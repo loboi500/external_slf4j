@@ -1,7 +1,3 @@
-VER=$1
-echo "Will use version '${VER}'"
-echo "Changing pom.xml files"
-find . -name "pom.xml" |xargs perl version.pl ${VER}
-echo "Changing Java files"
-find . -name "StaticLoggerBinder.java" |xargs perl binderVersion.pl ${VER}
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:696187e39b2a8038c718c961691341a5ef8c53a490604efeca557f503f45e933
+size 226
